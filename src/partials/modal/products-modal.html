@@ -1,12 +1,8 @@
-<div
-  class="backdrop ingredients__scroll is-hidden"
-  product-modal
->
-  <div class="modal-ingredients">
+<div class="backdrop-products js-overlay-modal ingredients__scroll">
+  <div class="modal-ingredients modal" data-modal="1">
     <button
       type="button"
-      class="modal-ingredients__close-btn modal-prod-close"
-      product-modal-close
+      class="modal-ingredients__close-btn modal-prod-close js-modal-close"
     >
       <svg class="modal-ingredients__icon" width="20" height="20">
         <use href="/src/image/icons.svg#close-modal"></use>
@@ -117,4 +113,5 @@
     </form>
   </div>
 </div>
+
 <script href="/src/js/product-modal.js"></script>
