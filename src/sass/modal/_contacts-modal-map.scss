@@ -87,14 +87,22 @@
     display: flex;
     text-decoration: none;
 
-    &:hover,
+    &:hover {
+        background-color: var(--hover-btn);
+        color: var(--secondary-text-color);
+        transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1),
+            color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+        // transition-delay: 0.5s;
+    }
+    
     &:focus {
         background-color: var(--hover-btn);
         color: var(--primary-text-color);
-        transition: 0.3s;
-        transition-delay: 0.5s;
+        transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1),
+            color 300ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 }
+
 
 .location-modal__line {
     position: absolute;
