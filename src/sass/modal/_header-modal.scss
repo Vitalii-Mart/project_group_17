@@ -1,5 +1,4 @@
 .backdrop {
-
   width: 100%;
   height: 100%;
   background-color: var(--backdrop-bcg-color);
@@ -13,12 +12,11 @@
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
-}
+  }
 }
 .modal-buy-now__scroll {
   overflow-y: scroll;
 }
-
 
 .form__buy-now {
   position: absolute;
@@ -222,9 +220,9 @@
 .form__input {
   width: 224px;
   height: 33px;
-  
+
   padding: 8px 12px;
-  color:var(--secondary-text-color);
+  color: var(--secondary-text-color);
   line-height: 1.7;
   background-color: var(--input-bcg-color);
   border-radius: 10px;
@@ -261,7 +259,7 @@
   background-color: var(--input-bcg-color);
   border-radius: 10px;
   border: 1px solid var(--primary-background-color);
-  
+
   &:focus {
     outline: none;
     border-color: var(--accent-color);
@@ -269,8 +267,8 @@
 
   .form__textarea:not(:placeholder-shown) {
     color: var(--ice-coffee);
-}
-  
+  }
+
   @media screen and (min-width: 768px) {
     width: 368px;
     height: 84px;
@@ -288,7 +286,6 @@ button {
 
 .form__coment {
   margin-bottom: 25px;
- 
 }
 
 .form__buy-btn {
